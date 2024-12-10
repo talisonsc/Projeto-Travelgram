@@ -28,11 +28,13 @@ body {
 }
 
 a {
+  font: var(--text);
   text-decoration: none;
   color: inherit
 }
 
 a:hover {
+  font: var(--text);
   color: var(--brand-color);
   text-decoration: underline;
 }
